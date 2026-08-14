@@ -1,0 +1,132 @@
+/* General Body & Background */
+body {
+    background-color: #008080; /* Teal fallback */
+    background-image: url('jazz-cup-design.webp');
+    background-repeat: repeat;
+    color: #333333; /* Dark gray for readability */
+    font-family: "Comic Sans MS", "Arial Black", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Content Container */
+.container {
+    max-width: 900px; /* Slightly wider */
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent white */
+    border: 5px outset #0000FF; /* Bright Blue Outset */
+    padding: 20px;
+}
+
+/* Header & Marquee */
+header {
+    background-color: #FF00FF; /* Bright Pink */
+    padding: 10px;
+    border-bottom: 3px groove #FFFF00; /* Yellow Groove */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #0000FF; /* Bright Blue */
+    text-shadow: 3px 3px 0px #FFFF00; /* Yellow Shadow */
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.marquee-text {
+    background-color: #00FFFF; /* Aqua */
+    color: #800080; /* Purple */
+    padding: 8px 0;
+    font-size: 1.5em;
+    border: 2px solid #FF00FF; /* Bright Pink Solid */
+    font-weight: bold;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #00FF00; /* Bright Green */
+    border: 3px outset #000080; /* Navy Outset */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #800080; /* Purple */
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #FFFF00; /* Yellow */
+    color: #FF00FF; /* Bright Pink */
+}
+
+
+/* Main Content Area */
+main {
+    padding: 20px;
+    border: 4px ridge #0000FF; /* Bright Blue Ridge */
+    margin-bottom: 20px;
+    background-color: #FFFFFF; /* White background for content */
+    text-align: left; /* Left align text within main */
+}
+
+h2 {
+    font-size: 2.2em;
+    color: #800080; /* Purple */
+    margin-bottom: 15px;
+    border-bottom: 2px dashed #0000FF; /* Bright Blue Dashed */
+    padding-bottom: 5px;
+    text-align: center; /* Center align section titles */
+}
+
+.intro-section p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #333333; /* Dark gray */
+    margin-bottom: 15px;
+}
+
+.status-image {
+    margin-top: 20px;
+    border: 3px solid #0000FF; /* Bright Blue Solid */
+    padding: 5px;
+    background-color: #FFFF00; /* Yellow background for image */
+}
+
+/* Footer */
+footer {
+    background-color: #FF00FF; /* Bright Pink */
+    padding: 10px;
+    border-top: 3px groove #FFFF00; /* Yellow Groove */
+    margin-top: 20px;
+    color: #0000FF; /* Bright Blue */
+    font-size: 1em;
+}
+
+/* Animal of the Month */
+.animal-of-the-month {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #E0FFFF; /* Light Cyan */
+    border: 4px dashed #800080; /* Purple Dashed */
+    text-align: center;
+}
+
+.capybara-img {
+    margin-top: 15px;
+    border: 5px double #00FF00; /* Bright Green Double */
+    padding: 5px;
+    background-color: #0000FF; /* Bright Blue */
+}
