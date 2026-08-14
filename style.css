@@ -129,6 +129,8 @@ footer {
     border: 5px double #00FF00; /* Bright Green Double */
     padding: 5px;
     background-color: #0000FF; /* Bright Blue */
+    width: 100px; /* Fixed width */
+    height: 100px; /* Fixed height */
 }
 
 /* Web Rings & Socials */
