@@ -130,3 +130,39 @@ footer {
     padding: 5px;
     background-color: #0000FF; /* Bright Blue */
 }
+
+/* Web Rings & Socials */
+.web-rings-socials {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #FFFF00; /* Yellow */
+    border: 4px ridge #FF00FF; /* Bright Pink Ridge */
+    text-align: center;
+}
+
+.web-rings-socials ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.web-rings-socials li {
+    margin-bottom: 5px;
+}
+
+.web-rings-socials a {
+    color: #800080; /* Purple */
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.web-rings-socials a:hover {
+    color: #0000FF; /* Bright Blue */
+}
+
+.dancing-banana-gif {
+    margin-top: 20px;
+    border: 3px solid #00FF00; /* Bright Green */
+    padding: 5px;
+    background-color: #00FFFF; /* Aqua */
+}
