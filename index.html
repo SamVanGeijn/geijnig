@@ -16,7 +16,7 @@
         <main>
             <section class="intro-section">
                 <h2>Hoi, ik ben Sam!</h2>
-                <p>Welkom bij mijn plek op het wereldwijde web! Ik schrijf graag, zowel code voor mijn dagelijkse werk, als dingen voor de lol. Ik heb ook (andere) hobby's, doe aan sport(en), en dat soort dingen... Mensendingen, weet je wel. Want dat is wat ik ben: een mens! In ieder geval, dat was ik nog toen ik dat voor het laatst controleerde.</p>
+                <p>Welkom bij mijn plek op het wereldwijde web! Ik schrijf veel, zowel code voor mijn dagelijkse werk, als dingen voor de lol. Ik heb ook (andere) hobby's, doe aan sport(en), en dat soort dingen... Mensendingen, weet je wel. Want dat is wat ik ben: een mens! In ieder geval, dat leek ik nog te zijn toen ik laatst in de spiegel keek.</p>
             </section>
 
             <section class="web-rings-socials" id="sorry">
@@ -46,17 +46,22 @@
         document.addEventListener('DOMContentLoaded', function() {
             const socialLinks = document.querySelectorAll('.web-rings-socials ul li a');
             const bananaGif = document.getElementById('bananaGif');
+            let isSpinning = false;
 
             socialLinks.forEach(link => {
                 link.addEventListener('click', function(event) {
                     event.preventDefault();
 
-                    bananaGif.classList.remove('spin-active');
-                    void bananaGif.offsetWidth;
+                    if (isSpinning) {
+                        return;
+                    }
+
+                    isSpinning = true;
                     bananaGif.classList.add('spin-active');
 
                     setTimeout(() => {
                         bananaGif.classList.remove('spin-active');
+                        isSpinning = false;
                     }, 1000);
                 });
             });
